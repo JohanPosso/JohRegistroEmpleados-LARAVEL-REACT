@@ -76,9 +76,9 @@ const Create = () => {
               label="Address"
               name="address"
               type="text"
-              errors={errors.email}
-              value={data.email}
-              onChange={e => setData('email', e.target.value)}
+              errors={errors.address}
+              value={data.address}
+              onChange={e => setData('address', e.target.value)}
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
@@ -94,9 +94,9 @@ const Create = () => {
               label="Phone"
               name="email"
               type="text"
-              errors={errors.address}
-              value={data.address}
-              onChange={e => setData('address', e.target.value)}
+              errors={errors.email}
+              value={data.email}
+              onChange={e => setData('email', e.target.value)}
             />
             <TextInput
               className="w-full pb-8 pr-6 lg:w-1/2"
